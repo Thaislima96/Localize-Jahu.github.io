@@ -131,12 +131,13 @@ footer {
     align-items: right;
     text-align: left;
 }
-.rodape-menu div{
+
+.rodape-menu div {
     display: flex;
     justify-content: right;
 }
 
-.rodape-link{
+.rodape-link {
     position: relative;
     text-decoration: none;
     color: #FFFFFF;
@@ -146,6 +147,7 @@ footer {
     margin-right: 16px;
     text-align: right;
 }
+
 .rodape-link::before {
     content: "";
     position: absolute;
@@ -161,4 +163,54 @@ footer {
 
 .rodape-link:hover::before {
     transform: scaleX(1);
+}
+
+/* Fim do Rodapé */
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Div de Titulo */
+
+.div-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.h1-titulo {
+    font-weight: 700;
+    color: var(--cor3);
+    margin-left: 16px;
+}
+
+/* Carrossel */
+
+.div-carrossel {}
+
+.img-carrossel {
+    width: 100%;
+    height: 618px;
+
+    background:
+        linear-gradient(#ccc 0 0) padding-box,
+        /*this is your grey background*/
+        linear-gradient(to bottom, var(--cor2), var(--cor3)) border-box;
+    color: #313149;
+    padding: 0px;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0;
+
 }
