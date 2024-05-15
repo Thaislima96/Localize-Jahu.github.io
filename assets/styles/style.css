@@ -148,13 +148,23 @@ nav {
     transform: scaleX(1);
 }
 
-
 .nav-separacao {
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 400;
     padding-right: 16px;
     opacity: 0.5;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon img {
+    width: 45px;
+    height: 45px;
+    margin-right: 16px;
+    filter: drop-shadow(0px 0px 1px #FFFFFF););
 }
 
 /* Fim da Barra de Navegação */
@@ -181,10 +191,18 @@ footer {
     align-items: center;
 }
 
-.rodape-logo img {
+.logo1 {
     padding-left: 16px;
     width: 150px;
     height: 150px;
+}
+
+.logo2{
+    position: relative;
+    width: 150px;
+    bottom: -38px;
+    left: calc(50vw - 75px);
+    display: none;
 }
 
 .rodape-menu {
@@ -235,8 +253,9 @@ footer {
 
 .div-subir {
     display: none;
-    margin-top: 2%;
+    margin: 2% 2% 0 0;
     align-self: start;
+    
 }
 
 .a-subir {
@@ -287,18 +306,76 @@ article {
 }
 
 @media (max-width: 700px) {
+
+    .fundo {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    /* Barra de Navegação */
+
+    nav{
+        height: 60px;
+        
+        background-size: 100% 46px;
+        background-repeat: no-repeat;
+        background-position: top;
+
+        margin-bottom: 16px;
+    }
+
+    .nav-container{
+        width: 100%;
+    }
+
+    .nav-logo img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .menu-icon{
+        display: flex;
+    }
+    
+
+
+    /* Rodapé */
+
+    .rodape-container{
+        width: 100%;
+    }
+
     .div-subir {
         display: flex;
     }
+
+
 
     .rodape-menu {
         display: none;
     }
 
     .rodape-logo {
+        
         align-self: center;
         justify-self: center;
-        padding-left: 30%;
+        height: 100%;
+        
+    }
+
+    .logo1{
+        display: none;
+    }
+
+    .logo2{
+        display: flex;
     }
 
     footer {
@@ -306,4 +383,6 @@ article {
         background: linear-gradient(180deg, rgba(173, 136, 198, 1) 0%, rgba(76, 68, 82, 1) 100%);
     }
 
+
 }
+
