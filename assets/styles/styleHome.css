@@ -6,7 +6,7 @@
 }
 
 .div-titulo h1 {
-    margin-left: 16px;
+    margin: 16px 0 0 16px;
 }
 
 /* Carrossel */
@@ -83,10 +83,6 @@
         height: 295px;
     }
 }
-
-
-
-
 
 @media (max-width: 700px) {
 
