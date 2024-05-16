@@ -39,7 +39,7 @@
 
     <main>
         <article>
-            
+
             <!-- Corpo -->
             <div class="div-titulo">
                 <img src="assets/images/popular.png" alt="Icone de Popular">
@@ -47,12 +47,80 @@
             </div>
             <br>
 
+            <!-- Carrossel -->
+
+
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+
+<!--   Bullets do carrossel, se aumentar uma imagem, aumente um li e acrescento o próximo número -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+    <li data-target="#carousel" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h5 class="contador"> 1 / 3 <h5>
+        <div class="div-carrossel">
+            <img class="img-carrossel" src="https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+          </div>
+       <div class="titulo">
+    	<h2> Imagem 1 </h2>
+    	<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+    </div>
+    </div>
+
+    <div class="carousel-item">
+      <h5 class="contador"> 2 / 3 <h5>
+        <div class="div-carrossel">
+            <img class="img-carrossel" src="https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+          </div>
+      <div class="titulo">
+      <h2> Imagem 2 </h2>
+      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+    </div>
+    </div>
+
+    <div class="carousel-item">
+      <h5 class="contador"> 3 / 3 <h5>
+        <div class="div-carrossel">
+      <img class="img-carrossel" src="https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+    </div>
+      <div class="titulo">
+      <h2> Imagem 3 </h2>
+      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+    </div>
+    </div>
+  
+
+  </div> <!-- Fecha elementos dentro do carrossel -->
+  
+<!--   Controladores | Botões -->
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"> Previous </span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"> Next </span>
+  </a> 
+</div> <!-- Fim do carrossel -->
+
+
+            <!-- ANTIGO Carrossel -->
             <div class="div-carrossel">
                 <a class="a-carrossel" href="exibirEvento.html">
                     <img class="img-carrossel" src="assets/images/evento1.jpg" alt="Imagem de um evento">
                 </a>
             </div>
             <br>
+
+            <!-- Cards -->
 
             <div class="div-titulo">
                 <img src="assets/images/proximos.png" alt="Icone de Próximos">
@@ -72,7 +140,7 @@
             <br>
             <br>
             <!-- Corpo -->
-            
+
         </article>
     </main>
 
@@ -103,6 +171,9 @@
                 </a>
             </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+    <script src="assets/scripts/scriptHome.js" defer></script>
+
 </body>
 
 </html>
