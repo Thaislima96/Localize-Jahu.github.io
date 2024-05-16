@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <span id="topo"></span>
+
     <div class="fundo"></div>
 
     <nav>
@@ -32,12 +32,29 @@
                 <a class="nav-link" href="contato.html">Contato</a>
             </div>
             <div class="menu-icon">
-                <img src="assets/images/menu.png" alt="Icone de Menu">
+                <a href="#" class="menu-abrir" id="menu-abrir" onclick="abrirNav();">
+                    <img src="assets/images/menu.png" alt="Icone de Menu">
+                </a>
+                <a href="javascript:void(0)" class="menu-fechar" id="menu-fechar" onclick="fecharNav();"><img
+                        src="assets/images/fechar.png" alt=""></a>
             </div>
         </div>
+
+
+        <!-- Menu Celular -->
+        <div id="navCelular" class="overlay">
+
+            <div class="overlay-conteudo">
+                <a class="overlay-link" href="index.html">Home</a>
+                <a class="overlay-link" href="cadastroEvento.html">Crie seu Evento</a>
+                <a class="overlay-link" href="sobreNos.html">Sobre Nós</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+        </div>
+
     </nav>
-
-
+    
     <main>
         <article>
 
@@ -68,11 +85,14 @@
                 </div>
             </div>
             <div class="div-subir">
-                <a href="#topo" class="a-subir">
+                <a id="irTopo" href="#" class="a-subir">
                     <img class="img-subir" src="assets/images/setaCima.png" alt="Seta apontando para cima">
                 </a>
             </div>
     </footer>
+
+    <script src="assets/scripts/script.js" defer></script>
+
 </body>
 
 </html>
