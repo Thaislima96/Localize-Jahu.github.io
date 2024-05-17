@@ -8,10 +8,15 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 
 /* Tipografia */
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
 
 h1 {
     font-family: "Roboto", sans-serif;
@@ -181,12 +186,13 @@ nav {
     display: block;
     width: 100%;
 }
+
 .menu-fechar {
     display: none;
     position: fixed;
     z-index: 3;
     top: 0;
-    right:  0;
+    right: 0;
 }
 
 
@@ -198,8 +204,8 @@ nav {
     z-index: -3;
     left: 0;
     top: 0;
-    background: rgb(173,136,198);
-    background: linear-gradient(90deg, rgba(173,136,198,0.9) 0%, rgba(76,68,82,0.9) 100%);
+    background: rgb(173, 136, 198);
+    background: linear-gradient(90deg, rgba(173, 136, 198, 0.9) 0%, rgba(76, 68, 82, 0.9) 100%);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -214,7 +220,8 @@ nav {
     align-items: center;
 }
 
-.overlay a, .overlay-link {
+.overlay a,
+.overlay-link {
     width: 80%;
     padding: 8px;
     margin-top: 16px;
@@ -223,12 +230,12 @@ nav {
     color: #FFFFFF;
     display: block;
     transition: 0.3s;
-    padding-bottom: 5%;    
-   }
+    padding-bottom: 5%;
+}
 
-.overlay-link{
-   
-    border-image: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%) 1;
+.overlay-link {
+
+    border-image: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) 1;
     border-width: 1px;
     border-style: solid;
 
@@ -430,7 +437,7 @@ article {
         display: flex;
     }
 
- 
+
 
     /* Rodapé */
 
