@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#circulo {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#borda {
+padding: 20px;
+width: 989px;
+height: 800px;
+border: 5px solid #AD88C6;
+border-radius: 30px;
+}
+    
+
+#descricao {
+float: center;
+}
