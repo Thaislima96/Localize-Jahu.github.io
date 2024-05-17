@@ -31,9 +31,9 @@ O Projeto Interdisciplinar é uma iniciativa avaliativa do primeiro semestre do 
 
 ## Requisitos
 
-- Desenvolver obrigatoriamente uma aplicação web em **HTML** e **CSS**.
+- Desenvolver o front-end de uma aplicação web utilizando **HTML** e **CSS**.
+- Utilizar ferramentas de controle de versão como **Git** e **GitHub**.
 - É permitido o uso de linguagens de programação adicionais, frameworks e bibliotecas.
-- Utilizar obrigatoriamente ferramentas de controle de versão como Git e GitHub.
 
 - - -
 
