@@ -7,7 +7,7 @@
 - - -
 # Localize Jahu
 Aplicação Web que destaca artistas locais e eventos da comunidade na região de Jaú.
-[GitHub Pages](https://pages.github.com/).
+
 ## Autoras
 - [Alisa Gabriel](https://github.com/AlissaGabriel), 
 - [Evelyn Nataly Aparecida Cassinotte](https://github.com/Evelyn-Cass),
