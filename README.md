@@ -1,6 +1,6 @@
 <div align="center">
   
-![Logotipo da FATEC](assets/images/logo_4C4452.png)
+![Logotipo da Localize Jahu](assets/images/logo_4C4452.png)
 
 </div>
 
