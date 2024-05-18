@@ -321,6 +321,7 @@
   background-color: #FFFFFF;
   padding: 1.5em 1.2em 2.5em;
   margin-top: -0.2em;
+  height: 80%;
 }
 
 .card-detalhes {
@@ -402,6 +403,7 @@
 .hora {
   z-index: 2000;
   background-color: var(--cor2);
+
   color: #FFFFFF;
   text-align: center;
   padding: 0.8em 0.5em 0.3em;
@@ -414,13 +416,16 @@
 .data {
   margin-left: 1em;
   border-radius: 0.3em 0 0 0.3em;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  
+  
+  background: linear-gradient(90deg, rgba(173,136,198,1) 0%, rgba(76,68,82,1) 100%);
 
 }
 
 .hora {
   max-width: 5em;
   border-radius: 0 0.3em 0.3em 0;
+  background-color: var(--cor3);
 }
 
 
