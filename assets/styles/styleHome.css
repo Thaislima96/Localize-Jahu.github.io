@@ -274,22 +274,28 @@
 
 /* Cards */
 
+.cards{
+  display: flex;
+  width: 99%;
+  justify-content: space-between;
 
-/* 
-		Details flips card to more info on the band
-		tickets button gradient move - mix blend mode
-		details hover = darker color
-		overflowing container
-*/
+  margin: 3% 0;
 
-/* -- Event Card Layout --*/
-.event {
+}
+
+.card {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: auto;
   grid-gap: 0;
 
+  width: 30%;
 
+  background: linear-gradient(to bottom, var(--cor2), var(--cor3)) border-box;
+  color: #313149;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  
 
 }
 
@@ -299,17 +305,17 @@
   position: relative;
 }
 
-.event-date {
+.card-data {
   grid-column: span 1;
   grid-row: 2;
 }
 
-.event-time {
+.card-hora {
   grid-column: span 1;
   grid-row: 2;
 }
 
-.event-title {
+.card-bloco-titulo {
   grid-column: span 2;
   grid-row: 3;
   background-color: #FFFFFF;
@@ -317,22 +323,11 @@
   margin-top: -0.2em;
 }
 
-.event-details {
+.card-detalhes {
   grid-column: span 2;
   grid-row: 8;
 }
 
-
-.card {
-  width: 23em;
-
-
-  background: linear-gradient(to bottom, var(--cor2), var(--cor3)) border-box;
-  color: #313149;
-  border: 5px solid transparent;
-  border-radius: 15px;
-
-}
 
 .image-wrapper:after {
   content: "";
@@ -343,17 +338,17 @@
   left: 0;
   width: 100%;
   height: 99%;
-  background-image: linear-gradient(to top, #FFFFFf 0%, rgba(0, 0, 0, 0) 100%)
+  background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 45%, rgba(255,255,255,0) 100%);
 }
 
-.featured-image {
+.card-imagem {
   width: 100%;
   border-radius: 0.45em 0.45em 0 0;
-  object-fit: cover;
+  object-fit: fill;
   max-height: 16em;
 }
 
-.title {
+.card-titulo {
   color: var(--cor3);
   margin: 5% 0 2% 0;
 }
@@ -377,14 +372,14 @@
 }
 
 
-.streetAddress,
-.locality {
+.card-rua,
+.card-bairro {
   margin: 0.3em 0;
   color: var(--dark);
   opacity: 0.85;
 }
 
-.event-details {
+.card-detalhes {
   background: rgb(173, 136, 198);
   background: linear-gradient(90deg, rgba(173, 136, 198, 1) 0%, rgba(76, 68, 82, 1) 100%);
 
@@ -395,7 +390,7 @@
   cursor: pointer;
 }
 
-.event-details:hover {
+.card-detalhes:hover {
   background-color: #3b404c;
 }
 
@@ -403,8 +398,8 @@
 
 
 
-.date,
-.time {
+.data,
+.hora {
   z-index: 2000;
   background-color: var(--cor2);
   color: #FFFFFF;
@@ -413,87 +408,27 @@
   margin: -1.5em 0 -1.5em;
   max-height: 1.5em;
   font-size: 16px;
-  font
 }
 
-.date time,
-.time time {
-  opacity: 0.85;
-}
 
-.date {
+.data {
   margin-left: 1em;
   border-radius: 0.3em 0 0 0.3em;
-  border-right: 2px solid #FFFFFF;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 
-.time {
+.hora {
   max-width: 5em;
   border-radius: 0 0.3em 0.3em 0;
 }
 
-@media screen and (max-width: 400px) {
-  .card {
-    width: 100%;
-  }
-
-  .date,
-  .time {
-    text-align: center;
-  }
-
-  .time {
-    max-width: 60%;
-  }
-}
-
-@media screen and (max-width: 300px) {
-
-  .date,
-  .time {
-    font-size: 0.8em;
-  }
-}
 
 
-.div-cards {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 16px;
-}
-
-.a-card {
-  width: 30%;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-card {
-  width: 97%;
-  height: 97%;
-
-  background: linear-gradient(to bottom, var(--cor2), var(--cor3)) border-box;
-  color: #FFFFFF;
-  border: 5px solid transparent;
-  border-radius: 15px;
-  display: inline-block;
-
-}
 
 /* Responsividade */
 
 @media (max-width: 820px) {
-
-  .a-carrossel {
-    height: 380px;
-  }
-
-  .a-card {
-    height: 295px;
-  }
 
   .carousel-titulo {
     width: 70%;
@@ -531,16 +466,17 @@
   }
 
   /* Cards */
-
-  .div-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .a-card {
-    width: 80%;
-    height: 445px;
-    margin-bottom: 16px;
-  }
+.cards{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 6%;
+}
+.card{
+  width: 80%;
+  margin-top: 6%;
+}
 
 }
+
