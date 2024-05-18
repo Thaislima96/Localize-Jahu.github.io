@@ -355,18 +355,6 @@
   margin: 5% 0 2% 0;
 }
 
-.link-saiba-mais {
-
-  text-decoration: none;
-  transition: color 200ms ease-in 0s;
-  color: #FFFFFF;
-  letter-spacing: 0.1em;
-
-}
-
-.link-saiba-mais:hover {
-  color: var(--blue);
-}
 
 .address {
   font-style: normal;
@@ -380,6 +368,15 @@
   opacity: 0.85;
 }
 
+.link-saiba-mais {
+
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+
 .card-detalhes {
   background: rgb(173, 136, 198);
   background: linear-gradient(90deg, rgba(173, 136, 198, 1) 0%, rgba(76, 68, 82, 1) 100%);
@@ -387,12 +384,28 @@
   padding: 1em;
   text-align: center;
   border-radius: 0 0 0 0.45em;
-  transition: background-color 200ms ease-in 0s;
   cursor: pointer;
+
 }
 
+@keyframes detalhe {
+  from {
+    background: var(--cor3);
+    opacity: 0;
+  } 
+  to {
+    background: var(--cor3);
+  }
+
+}
+
+
 .card-detalhes:hover {
-  background-color: #3b404c;
+  
+  animation: detalhe 1s;
+  animation-iteration-count: 1;
+  background: var(--cor3);
+
 }
 
 
