@@ -381,6 +381,8 @@
 }
 
 .card-detalhes {
+  width: auto;
+  height: auto;
   background: rgb(173, 136, 198);
   background: linear-gradient(90deg, rgba(173, 136, 198, 1) 0%, rgba(76, 68, 82, 1) 100%);
 
