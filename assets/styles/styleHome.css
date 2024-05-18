@@ -455,6 +455,28 @@
 
 }
 
+@media (max-width: 1225px) and (min-width: 700px) {
+
+  /*Cards*/
+
+  .card {
+    background: linear-gradient(var(--cor3), var(--cor3)) padding-box, linear-gradient(to bottom, var(--cor2), var(--cor3)) border-box;
+  }
+
+  .data,
+  .hora {
+    display: none;
+  }
+
+  .card-bloco-titulo {
+    display: none;
+  }
+
+  .image-wrapper:after {
+    background-image: linear-gradient(0deg, var(--cor3) 0%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+
 @media (max-width: 700px) {
 
   /* Carrossel */
