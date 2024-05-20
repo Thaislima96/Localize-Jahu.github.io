@@ -11,13 +11,62 @@ body {
 
 #borda {
 padding: 20px;
-width: 989px;
-height: 800px;
+width: 1309x;
+height: 870px;
 border: 5px solid #AD88C6;
 border-radius: 30px;
 }
     
+.wrapper {
+    display: grid;
+    align-items: center;
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-items: center;
+    display: inline-block;
+  }
+
+  .item2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-items: center;
+  }
+
+  .item3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    align-items: center;
+  }
+
+  .item4 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    align-items: center;
+  }
+
+  .item5 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+  }
 
 #descricao {
 float: center;
 }
+
+@media and (max-width: 820px;) {
+
+    .corpo{
+      display:inline-flex;
+      justify-content: center;
+      width: 70%;
+    }
+
+}
+
+    form {
+    justify-content: center;
+    width: 70%;
+    }
