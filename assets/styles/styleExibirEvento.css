@@ -5,7 +5,7 @@
     color: black;
     display: flex;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 210px;
 }
 
 .subtitulo, .subtitulo2{
@@ -40,7 +40,7 @@ strong{
     justify-content: center;
     padding: 20px;
     padding-top: 50px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 
