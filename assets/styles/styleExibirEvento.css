@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 .titulo{
     color: black;
     display: flex;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
-.subtitulo{
+.subtitulo, .subtitulo2{
     padding-left: 15px;
+    font-size: 28px;
+}
+
+strong{
     font-size: 28px;
 }
 
@@ -17,7 +22,6 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    margin-right: 200px;
     padding-top: 50px;
 }
 
@@ -26,7 +30,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    padding-right: 390px; 
+    padding-right: 200px; 
     padding-top: 50px;
 }
 
@@ -36,7 +40,7 @@
     justify-content: center;
     padding: 20px;
     padding-top: 50px;
-    padding-left: 28px;
+    padding-left: 30px;
 }
 
 
@@ -44,7 +48,8 @@
     font-size: 28px;
     display: flex;
     justify-content: center;
-    padding-bottom: 60px;
+    padding: 50px;
+    text-align: center;
 }
 
 .evento{
@@ -55,11 +60,61 @@
     background: linear-gradient(to bottom, #AD88C6, #4C4452) border-box; 
 }
 
-.imagem{
+@media (max-width: 820px){
+   .titulo{
+       margin-right:60px;
+       margin-left: 90px;
+       width: 50%;
+   }
+
+   .subtitulo, .subtitulo2{
+       height: 70%;
+   }
+
+   .hora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 50px;
+   }
+   
+   .data{
+       margin-left: 15px;
+   }
+
+   .descricao{
     display: flex;
     justify-content: center;
-    padding-bottom: 60px;
     padding-top: 60px;
-    padding-left: 60px;
+    text-align: center;
+   }
+
+   .ima{
+       padding-bottom: 120px;
+   }
+
 }
+
+
+@media (max-width: 1400px) and (min-width: 700px) {
+
+    .titulo{
+      margin-left: 200px;
+    }
+
+    .hora{
+        margin-right: 180px;
+    }
+
+    .subtitulo2{
+        padding-bottom: 50px;
+    }
+
+    .descricao{
+        padding-top: 5px;
+    }
+}
+
+
 
