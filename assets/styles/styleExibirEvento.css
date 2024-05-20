@@ -94,6 +94,10 @@ strong{
        padding-bottom: 120px;
    }
 
+   .local{
+       padding-left: 38px;
+   }
+
 }
 
 
@@ -104,7 +108,11 @@ strong{
     }
 
     .hora{
-        margin-right: 180px;
+        margin-right: 160px;
+    } 
+
+    .data{
+        width: 90%;
     }
 
     .subtitulo2{
@@ -112,7 +120,9 @@ strong{
     }
 
     .descricao{
-        padding-top: 5px;
+        padding-top: 40px;
+        text-align: justify;
+        width: 90%;
     }
 }
 
