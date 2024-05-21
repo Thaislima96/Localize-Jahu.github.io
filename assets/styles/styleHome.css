@@ -532,3 +532,14 @@
   }
 
 }
+
+@media (max-width: 400px) {
+
+  .hora{
+    max-width: 87%;
+    width: 100%;
+    border-radius: 0  ;
+  }
+
+
+}

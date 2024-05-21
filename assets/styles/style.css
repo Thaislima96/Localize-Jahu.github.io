@@ -153,9 +153,6 @@ nav {
 .active-menu{
     background-color: var(--cor2);
     background: linear-gradient(180deg, rgba(173,136,198,0) 0%, rgba(173,136,198,1) 54%, rgba(76,68,82,0) 100%);
- 
-
-
 }
 
 
