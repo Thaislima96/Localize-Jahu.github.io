@@ -23,20 +23,42 @@
                 </a>
             </div>
             <div class="menu">
-                <a class="nav-link" href="index.html">Home</a>
-                <div class="nav-separacao">|</div>
-                <a class="nav-link" href="cadastroEvento.html">Crie seu Evento</a>
-                <div class="nav-separacao">|</div>
-                <a class="nav-link" href="sobreNos.html">Sobre Nós</a>
-                <div class="nav-separacao">|</div>
-                <a class="nav-link" href="contato.html">Contato</a>
+                <div class="menu-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                </div>
+                <div class="menu-item">
+                    <a class="nav-link" href="cadastroEvento.html">Crie seu Evento</a>
+                </div>
+                <div class="menu-item active-menu">
+                    <a class="nav-link " href="sobreNos.html">Sobre Nós</a>
+                </div>
+                <div class="menu-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </div>
             </div>
             <div class="menu-icon">
-                <img src="assets/images/menu.png" alt="Icone de Menu">
+                <a href="#" class="menu-abrir" id="menu-abrir" onclick="abrirNav();">
+                    <img src="assets/images/menu.png" alt="Icone de Menu">
+                </a>
+                <a href="javascript:void(0)" class="menu-fechar" id="menu-fechar" onclick="fecharNav();"><img
+                        src="assets/images/fechar.png" alt=""></a>
             </div>
         </div>
-    </nav>
 
+
+        <!-- Menu Celular -->
+        <div id="navCelular" class="overlay">
+
+            <div class="overlay-conteudo">
+                <a class="overlay-link" href="index.html">Home</a>
+                <a class="overlay-link" href="cadastroEvento.html">Crie seu Evento</a>
+                <a class="overlay-link" href="sobreNos.html">Sobre Nós</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+        </div>
+
+    </nav>
 
     <main>
         <article>
@@ -142,6 +164,10 @@ de contato conosco para mais informações.
                 </a> 
             </div>
     </footer>
+
+    
+    <script src="assets/scripts/script.js" defer></script>
+
 </body>
 
 </html>

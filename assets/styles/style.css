@@ -130,7 +130,33 @@ nav {
 .menu {
     display: flex;
     align-self: center;
+    justify-content: right;
+    height: 54%;
 }
+
+.menu-item{
+    display: flex;
+    align-items: center;
+
+    border-image:  linear-gradient(180deg, rgba(169,133,194,0) 35%, rgba(175,164,181,1) 50%, rgba(76,68,82,0) 65%)
+    
+    1;
+    border-width: 1px;
+    border-style: solid;
+
+
+
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.active-menu{
+    background-color: var(--cor2);
+ 
+}
+
+
 
 .nav-link {
     position: relative;
@@ -139,6 +165,7 @@ nav {
     color: #FFFFFF;
     font-weight: 400;
     margin-right: 16px;
+    margin-left: 16px;
 }
 
 .nav-link::before {
@@ -162,7 +189,6 @@ nav {
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 400;
-    padding-right: 16px;
     opacity: 0.5;
 }
 
