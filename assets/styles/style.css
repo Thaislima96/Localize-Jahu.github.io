@@ -163,8 +163,7 @@ nav {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 400;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin: 0 16px;
 }
 
 .nav-link::before {
@@ -184,12 +183,7 @@ nav {
     transform: scaleX(1);
 }
 
-.nav-separacao {
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 400;
-    opacity: 0.5;
-}
+
 
 .menu-icon {
     display: none;
@@ -407,19 +401,16 @@ article {
 
 @media (max-width: 820px) {
 
-    .nav-link,
-    .nav-separacao {
-        margin-right: 8px;
+    .nav-link {
+        margin: 0 8px;
         padding: 0;
     }
 }
 
 @media (max-width: 740px) {
 
-    .nav-link,
-    .nav-separacao {
-        margin-right: 4px;
-        padding: 0;
+    .nav-link {
+        margin: 0 4px;
     }
 }
 
