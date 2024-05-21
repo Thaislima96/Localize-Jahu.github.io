@@ -41,6 +41,14 @@ A documentação completa do projeto, incluindo detalhes sobre o processo de des
 
 [Documentação do Projeto](https://github.com/Localize-Jahu/Documentos)
 
+## Fale conosco
+
+Se tiver alguma dúvida, sugestão ou feedback sobre a aplicação, não hesite em nos contatar. 
+Estamos aqui para ajudar e ouvir suas opiniões para melhorar continuamente o projeto.
+
+[Evelyn Cassinotte](mailto:evelyn.cassinotte@fatec.sp.gov.br)
+
+
 
 - - -
 
