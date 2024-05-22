@@ -65,7 +65,37 @@
         <main>
             <article>
 
-                <!-- Corpo -->
+                <<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro.</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>FORMULÁRIO DE CADASTRO.</h1>
+    <form action="processar_formulario.php" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" maxlength="30" required> 
+        
+        <label for="telefone">Telefone:</label><br>
+        <input type="text" id="nome" name="nome" maxlength="15" required> 
+        
+        <label for="email">E-mail:</label><br>
+        <input type="text" id="nome" name="nome" maxlength="30" required> 
+        
+        <label for="descricao">Descrição:</label><br>
+        <textarea id="descricao" name="descricao" rows="4" cols="50" maxlength="100"></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpar">
+    
+    </form>
+    </div>
+</body>
+</html>>
 
             </article>
         </main>
